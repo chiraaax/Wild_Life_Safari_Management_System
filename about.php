@@ -40,6 +40,41 @@
 
 <!-- header section ends -->
 
+<div class="heading" style="background:url(images/aboutus6.jpg) no-repeat">
+    <h1>about us</h1>
+</div>
+
+<!-- about section starts -->
+
+<section class="about">
+    <div class="image">
+        <img src="images/aboutone.jpg" alt="a photo of a family">
+    </div>
+
+    <div class="content">
+        <h3>why choose us?</h3>
+        <p>Our team comprises knowledgeable guides and wildlife enthusiasts who possess extensive expertise in Sri Lanka's diverse ecosystems and wildlife habitats. We specialize in curating personalized safari itineraries that cater to your interests, whether you seek encounters with majestic elephants, elusive leopards, or colorful birdlife.<br>
+        Moreover, Safari Lanka is dedicated to responsible tourism. We prioritize wildlife conservation and sustainable practices, ensuring that our adventures have a positive impact on local communities and the environment. When you choose Safari Lanka, you not only embark on a thrilling safari but also contribute to the preservation of Sri Lanka's natural heritage.</p>
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-map"></i>
+                <span>top destinations</span>
+            </div>
+            <div class="icons">
+                <i class="fas fa-hand-holding-usd"></i>
+                <span>affordable price</span>
+            </div>
+            <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>24/7 guide service</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+
+
 
 
 
