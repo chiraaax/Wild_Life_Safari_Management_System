@@ -48,3 +48,41 @@ if(!isset($user_id)){
 <section class="header"></section>
 
 <a href="home.php" class="logo"><span>S</span>afari <span>L</span>anka</a>
+
+<nav class="navbar">
+        <a href="about.php">About Us</a>
+        <a href="./contact_us/index.php">Contact Us</a>
+        <a href="package.php">Our Packages</a>
+        <a href="./reservations/add.php">Reservations</a>
+        <a href="./payment/add_payment.php">Check Out</a>
+        <a href="donation/addDonation.php">Donate Now!</a>
+    </nav>
+
+    <div class="icons">
+    
+        <i class="fas fa-user-plus" id="login-btn"> </i>
+        <a href="login.php" class="logbtn">Login</a> &nbsp;
+        <i class="fas fa-user-circle" id="my-acc"> </i>
+        <div id="user-btn" class="logbtn">My account</div> &nbsp;
+        <i class="fas fa-search" id="search-btn"></i>
+    </div> 
+
+        <div class="user-box">
+            <p>username : <span><?php echo $_SESSION['user_name']; ?></span></p>
+            <p>email : <span><?php echo $_SESSION['user_email']; ?></span></p>
+            <a href="logout.php" class="delete-btn">Logout</a>
+         </div>
+
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    
+    
+    
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends -->
