@@ -86,3 +86,41 @@ if(!isset($user_id)){
 </section>
 
 <!-- header section ends -->
+
+<!-- home section starts -->
+
+
+<section class="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide" style="background:url(images/home.jpg) no-repeat">
+                <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>Let's go wild!</h3> 
+                    <a href="package.php" class="btn">discover more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(images/home2.jpg) no-repeat">
+                <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>discover the new places</h3> 
+                    <a href="package.php" class="btn">discover more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(images/home3.jpg) no-repeat">
+                <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>Make your tour worthwhile</h3> 
+                    <a href="package.php" class="btn">discover more</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
