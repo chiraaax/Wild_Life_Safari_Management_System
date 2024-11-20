@@ -46,3 +46,5 @@ if(!isset($user_id)){
 
 <!-- header section starts -->
 <section class="header"></section>
+
+<a href="home.php" class="logo"><span>S</span>afari <span>L</span>anka</a>
