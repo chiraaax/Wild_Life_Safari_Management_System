@@ -42,3 +42,7 @@ if(!isset($user_id)){
 
 </head>
 
+<body>
+
+<!-- header section starts -->
+<section class="header"></section>
