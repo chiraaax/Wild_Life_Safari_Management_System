@@ -64,3 +64,17 @@ if(isset($message)){
    }
 }
 ?>
+
+<div class="form-container">
+   <form action="" method="post">
+      <h1>Welcome to <span>S</span>afari <span>L</span>anka! <br><i>- Let's Go Wilder -</i></h1><br>
+      <h3>Login Now</h3>
+      <input type="email" name="email" placeholder="Enter your email" required class="box">
+      <input type="password" name="password" placeholder="Enter your password" required class="box">
+      <input type="submit" name="submit" value="Login Now" class="btn">
+      <p><b>Don't have an account? &nbsp; <a href="register.php">Register Now</b></a></p>
+   </form>
+</div>
+</section>
+</body>
+</html>
