@@ -51,3 +51,16 @@ if(isset($_POST['submit'])){
 </head>
 <body>
 <section class="body">
+
+<?php
+if(isset($message)){
+   foreach($message as $msg){
+      echo '
+      <div class="message">
+         <span>'.$msg.'</span>
+         <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
+      </div>
+      ';
+   }
+}
+?>
