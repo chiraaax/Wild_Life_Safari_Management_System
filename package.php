@@ -102,3 +102,51 @@
             </div>
         </div>
 
+         <div class="box">
+            <div class="image">
+                <img src="images/packages6.webp" alt="">
+            </div>
+            <div class="content">
+                <h3>Udawalawe National Park</h3>
+                <p>Udawalawe National Park, nestled in Sri Lanka's scenic landscape, is a premier wildlife sanctuary famous for its large population of elephants and diverse birdlife, offering captivating safari experiences amidst picturesque surroundings.</p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/packages7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>adventures and tour</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/packages8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>adventures and tour</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/packages9.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>adventures and tour</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        
+
+
+
