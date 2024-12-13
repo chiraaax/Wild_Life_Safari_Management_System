@@ -36,3 +36,9 @@
 
 </section>
 
+<!-- header section ends -->
+<div class="heading" style="background:url(images/aboutus2.jpg)">
+    <h1>our packages</h1>
+</div>
+
+
