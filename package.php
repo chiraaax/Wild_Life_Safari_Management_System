@@ -185,6 +185,57 @@
 
 <!-- packages section ends -->
 
+        <!-- footer section starts -->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="home.php"><i class="fas fa-angle-right"></i>Home</a>
+            <a href="about.php"><i class="fas fa-angle-right"></i>About Us</a>
+            <a href="package.php"><i class="fas fa-angle-right"></i>Offers & Packages</a>
+            <a href="book.php"><i class="fas fa-angle-right"></i>Reservations</a>
+        </div>
+
+        <div class="box">
+            <h3>Extra links</h3>
+            <a href="./FAQ/FAQ.html"><i class="fas fa-angle-right"></i> Ask Questions</a>
+            <a href="./contact_us/index.php"><i class="fas fa-angle-right"></i> Contact Us </a>
+            <a href="#"><i class="fas fa-angle-right"></i> Privacy Policy</a>
+            <a href="#"><i class="fas fa-angle-right"></i> Terms Of Use</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact info</h3>
+            <a href="#"><i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"><i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"><i class="fas fa-envelope"></i> Safarilanka@gmail.com </a>
+            <a href="#"><i class="fas fa-map"></i> Colombo, SriLanka </a>
+        </div>
+
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i> Facebook </a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i> Twitter </a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> Instagram </a>
+            <a href="https://lk.linkedin.com/"><i class="fab fa-linkedin"></i> Linkedin </a>
+        </div>
+
+    </div>
+
+    <div class="credit">Powered By <span><span1>S</span1>afari <span1>L</span1>anka</span> |All rights reserved!</div>
+</section>
+
+<!-- swiper js link -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="./js/script.js"></script>
+
+</body>
+</html> 
+
 
         
 
