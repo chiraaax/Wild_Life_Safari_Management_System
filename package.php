@@ -146,6 +146,46 @@
             </div>
         </div>
 
+        <div class="box">
+            <div class="image">
+                <img src="images/packages10.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>adventures and tour</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/packages11.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>adventures and tour</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/packages12.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>adventures and tour</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+    <div class="load-more"><span class="btn">load more</span></div>
+
+</section>
+
+<!-- packages section ends -->
+
+
         
 
 
