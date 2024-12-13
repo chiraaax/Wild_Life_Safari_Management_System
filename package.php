@@ -41,4 +41,64 @@
     <h1>our packages</h1>
 </div>
 
+        <!-- packages section starts -->
+
+<section class="packages">
+    <h1 class="heading-title">top destinations</h1>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/about3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Yala National Park</h3>
+                <p>Yala National Park in Sri Lanka is renowned for its diverse wildlife and stunning landscapes, making it a must-visit destination for nature enthusiasts and wildlife lovers alike.</p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/about2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Horton Plains National Park</h3>
+                <p>Horton Plains National Park in Sri Lanka features beautiful landscapes, including grasslands and forests, and is known for its diverse wildlife, including the rare Sri Lankan leopard.</p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/about4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Sinharaja National Park</h3>
+                <p>Sinharaja National Park, is a breathtaking UNESCO World Heritage Site renowned for its rich biodiversity and lush rainforest, offering a haven for diverse flora and fauna.</p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/packages4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Wilpattu National Park</h3>
+                <p>Wilpattu National Park, is a captivating wilderness area known for its scenic landscapes and abundant wildlife, including leopards, elephants, and a diverse array of bird species.</p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/packages5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Sigiriya</h3>
+                <p>Sigiriya, is a UNESCO World Heritage Site renowned for its ancient rock fortress, breathtaking frescoes, and stunning panoramic views of the surrounding countryside.</p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
 
