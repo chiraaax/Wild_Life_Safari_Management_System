@@ -15,6 +15,7 @@ searchBtn.addEventListener('click', () =>{
   searchBar.classList.toggle('active');
 });
 
+
 menu.onclick = () =>{
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
@@ -67,5 +68,3 @@ loadMoreBtn.onclick = () =>{
         loadMoreBtn.style.display= 'none';
     }
 }
-
-
