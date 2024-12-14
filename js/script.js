@@ -4,3 +4,13 @@ let searchBtn = document.querySelector('#search-btn');
 let searchBar = document.querySelector('.search-bar-container');
 
 let userBox = document.querySelector('.header .user-box');
+
+document.querySelector('#user-btn').onclick = () =>{
+   userBox.classList.toggle('active');
+   navbar.classList.remove('active');
+}
+
+searchBtn.addEventListener('click', () =>{
+  searchBtn.classList.toggle('fa-times');
+  searchBar.classList.toggle('active');
+});
