@@ -619,4 +619,32 @@ section{
 }
 /* home packages section ends */
 
+/* home offer section starts */
+
+.home-offer{
+    text-align: center;
+}
+
+.home-offer .content{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.home-offer .content h3{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color:#cf2f1d;
+}
+
+.home-offer .content p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+/* home offer section ends */
+
+
+
 
