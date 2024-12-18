@@ -269,3 +269,134 @@ section{
 .delete-btn:hover{
     background-color: var(--red);
 }
+
+.header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background-color: var(--white);
+    display: flex;
+    padding: 2rem 9%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--black);
+    text-transform: uppercase;
+}
+
+.header .logo span{
+    color:red;
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    margin:0 .8rem;
+    color: var(--black);
+}
+
+.header .navbar a:hover{
+    color:var(--main-color);
+}
+
+.header .flex{
+    padding:2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 1200px;
+   margin:0 auto;
+}
+
+.header .icons i{
+    font-size: 1.7rem;
+    color:black;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.header .icons i:hover{
+    color:var(--main-color);
+}
+
+.header .user-box{
+    position: absolute;
+    top:120%; right:2rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    border:var(--main-color);
+    padding:2rem;
+    text-align: center;
+    width: 35rem;
+    display: none;
+    animation: fadeIn .2s linear;
+ }
+
+ .header .user-box.active{
+    display: inline-block;
+ }
+ 
+ .header .user-box p{
+    font-size: 1.5rem;
+    color:var(--light-color);
+    margin-bottom: 1.5rem;
+ }
+ 
+ .header .user-box p span{
+    color:var(--purple);
+ }
+ 
+ .header .user-box .delete-btn{
+    margin-top: 0;
+ }
+
+.header .search-bar-container{
+    position: absolute;
+    top: 100%; left: 0; right: 0;
+    padding:1.5rem 2rem;
+    background: #333;
+    border-top: .1rem solid rgba(255,255,255,.2);
+    display: flex;
+    align-items: center;
+    z-index: 1001;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.header .search-bar-container.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+}
+
+.header .search-bar-container #search-bar{
+    width: 100%;
+    padding: 1rem;
+    text-transform: none;
+    color: #333;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+}
+
+.header .search-bar-container label{
+    color: #fff;
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 1.5rem;
+}
+
+.header .search-bar-container label:hover{
+    color:var(--main-color);
+}
+
+#menu-btn{
+    font-size: 2.5rem;
+    cursor: pointer;
+    color:var(--black);
+    display: none;
+}
