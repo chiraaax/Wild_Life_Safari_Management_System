@@ -139,3 +139,133 @@ section{
     text-transform: uppercase;
     color:var(--black);
 }
+
+/* Custom CSS for Login Page */
+
+.body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    width: 700px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-container h1 {
+    text-decoration: italic;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    color: #000000;
+}
+
+.form-container span{
+    color: red;
+}
+
+.form-container h3 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    color: #000000;
+}
+
+.form-container .box {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+
+.form-container .btn {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.form-container .btn:hover {
+    background-color: #0056b3;
+}
+
+.form-container p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #000000;
+}
+
+.form-container p a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.form-container p a:hover {
+    text-decoration: underline;
+}
+
+
+
+.btn{
+    display: inline-block;
+    background: var(--black);
+    margin-top: 1rem;
+    color: var(--white);
+    font-size:1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    border: .2rem solid black;
+} 
+
+.btn:hover{
+    background: var(--main-color);
+    color:white;
+}
+
+.logbtn{
+    display: inline-block;
+    background: var(--main-color);
+    margin-top: .5rem;
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border: .2rem var(--main-color);
+}
+
+.logbtn:hover{
+    background: black;
+    color: var(--main-color);
+}
+
+.delete-btn{
+    display: inline-block;
+    background: var(--purple);
+    margin-top: 1rem;
+    padding:1rem 2rem;
+    cursor: pointer;
+    color:var(--white);
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+}
+
+.delete-btn:hover{
+    background-color: var(--red);
+}
