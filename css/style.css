@@ -891,6 +891,10 @@ section{
     margin-top: 2rem;
 }
 
+.heading{
+    background-size: cover;
+}
+
 /* booking section ends */
 
 
