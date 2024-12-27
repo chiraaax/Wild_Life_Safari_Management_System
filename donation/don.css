@@ -1,1 +1,117 @@
+body{
+    background-image: url("yakari2.jpg");
+    background-size: cover;
+}
 
+.d1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.d1t{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 500%;
+    color: white;
+}
+
+.d2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.d3{ 
+    display: flex;
+   
+}
+
+.dt1{
+    margin-left: 10%;
+    width: 70px;
+    padding-left: 50px;
+    border: solid 1px;
+    border-radius: 3px;
+    background:  #8DECB4;
+
+}
+
+.dt1 a{
+    text-decoration: none;
+}
+
+.dt2{
+    margin-left: 9%;
+    border: solid 1px;
+    width: 70px;
+    padding-left: 50px;
+    border-radius: 3px;
+    background: #8DECB4;
+}
+
+.dt2 a{
+    text-decoration: none;
+}
+
+.dt3{
+    margin-left: 9%;
+    border: solid 1px;
+    width: 70px;
+    padding-left: 50px;
+    border-radius: 3px;
+    background:  #8DECB4;
+}
+
+.dt3 a{
+    text-decoration: none;
+}
+
+.dt4{
+    margin-left: 9%;
+    border: solid 1px;
+    width: 70px;
+    padding-left: 50px;
+    border-radius: 3px;
+    background:  #8DECB4;
+}
+
+.dt4 a{
+    text-decoration: none;
+}
+
+.dt5{
+    margin-left: 9%;
+    border: solid 1px;
+    width: 70px;
+    padding-left: 50px;
+    border-radius: 3px;
+    background:  #8DECB4;
+}
+
+.dt5 a{
+    text-decoration: none;
+}
+
+.d4{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    
+}
+
+.d4 p{
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.d5{
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    
+}
