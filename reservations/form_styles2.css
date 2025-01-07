@@ -1,1 +1,448 @@
+/* External CSS file: form_styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
+:root{
+    --main-color:#35cd35;
+    --black:#222;
+    --marian-blue: #22bdec;
+    --white:#fff;
+    --light-black:#5a5a5a;
+    --light-white:rgb(255, 255, 0);
+    --dark-bg:rgba(0,0,0,.7);
+    --light-bg:#eee;
+    --purple:#8e44ad;
+    --red:#c0392b;
+    --orange:#f39c12;
+    --black:#333;
+    --white:#fff;
+    --light-color:#666;
+    --light-white:#ccc;
+    --light-bg:#f5f5f5;
+    --border:1rem solid var(--black);
+    --box-shadow:0.5rem 1rem rgba(0,0,0,.1);
+    --text-shadow:0 1.5rem 3rem rgba(0,0,0,.3);
+    --goldenrod:#daa520;
+}
+
+
+
+::selection{
+    background:var(--main-color);
+    color:#fff;
+}
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+}
+
+html::-webkit-scrollbar{
+    width:1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: var(--white);
+}
+
+
+html::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+
+section{
+    padding:5rem 10%;
+}
+
+.empty{
+    padding:1.5rem;
+    text-align: center;
+    border:var(--border);
+    background-color: var(--white);
+    color:var(--red);
+    font-size: 2rem;
+ }
+ 
+ 
+ 
+@keyframes fadeIn {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+.heading{
+    background-size: cover !important;
+    background-position: center !important;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1{
+    font-size: 10rem;
+    text-transform: uppercase;
+    color: var(--white);
+    text-shadow: var(--text-shadow);
+}
+
+.heading-title{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:var(--black);
+}
+
+
+.btn{
+    display: inline-block;
+    background: var(--black);
+    margin-top: 1rem;
+    color: var(--white);
+    font-size:1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    border: .2rem solid black;
+} 
+
+.btn:hover{
+    background: var(--main-color);
+    color:white;
+}
+
+.logbtn{
+    display: inline-block;
+    background: var(--main-color);
+    margin-top: .5rem;
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border: .2rem var(--main-color);
+}
+
+.logbtn:hover{
+    background: black;
+    color: var(--main-color);
+}
+
+.delete-btn{
+    display: inline-block;
+    background: var(--purple);
+    margin-top: 1rem;
+    padding:1rem 2rem;
+    cursor: pointer;
+    color:var(--white);
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+}
+
+.delete-btn:hover{
+    background-color: var(--red);
+}
+
+
+.header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background-color: var(--white);
+    display: flex;
+    padding: 2rem 9%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--black);
+    text-transform: uppercase;
+}
+
+.header .logo span{
+    color:red;
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    margin:0 .8rem;
+    color: var(--black);
+}
+
+.header .navbar a:hover{
+    color:var(--main-color);
+}
+
+.header .flex{
+    padding:3rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 1200px;
+   margin:0 auto;
+}
+
+.header .icons i{
+    font-size: 1.7rem;
+    color:black;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.header .icons i:hover{
+    color:var(--main-color);
+}
+
+.header .user-box{
+    position: absolute;
+    top:120%; right:2rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    border:var(--main-color);
+    padding:2rem;
+    text-align: center;
+    width: 35rem;
+    display: none;
+    animation: fadeIn .2s linear;
+ }
+
+ .header .user-box.active{
+    display: inline-block;
+ }
+ 
+ .header .user-box p{
+    font-size: 1.5rem;
+    color:var(--light-color);
+    margin-bottom: 1.5rem;
+ }
+ 
+ .header .user-box p span{
+    color:var(--purple);
+ }
+ 
+ .header .user-box .delete-btn{
+    margin-top: 0;
+ }
+
+.header .search-bar-container{
+    position: absolute;
+    top: 100%; left: 0; right: 0;
+    padding:1.5rem 2rem;
+    background: #333;
+    border-top: .1rem solid rgba(255,255,255,.2);
+    display: flex;
+    align-items: center;
+    z-index: 1001;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.header .search-bar-container.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+}
+
+.header .search-bar-container #search-bar{
+    width: 100%;
+    padding: 1rem;
+    text-transform: none;
+    color: #333;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+}
+
+.header .search-bar-container label{
+    color: #fff;
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 1.5rem;
+}
+
+.header .search-bar-container label:hover{
+    color:var(--main-color);
+}
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif; /* Standard font */
+    background-color: #f4f4f4; /* Light background color */
+    margin: 0; /* No margin */
+    padding: 100px; /* Padding for the entire body */
+}
+
+/* Heading style */
+h2 {
+    text-align: center; /* Centered text */
+    font-size: 20px; /* Adjust the font size for the heading */
+}
+
+/* Link styles */
+a {
+    color: #007bff; /* Standard blue link color */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Form styling */
+.form {
+    max-width: 600px; /* Set maximum width */
+    margin: 0 auto; /* Center the form */
+    background: white; /* White background for the form */
+    padding: 20px; /* Padding inside the form */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+/* form_styles2.css */
+.form-bordered {
+    border: 2px solid #ccc; /* Light gray border */
+    padding: 20px; /* Padding inside the border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    max-width: 400px; /* Set a maximum width */
+    margin: 20px auto; /* Centered alignment */
+}
+
+.form-bordered table {
+    width: 100%; /* Ensure the table takes the full width of the form */
+}
+
+.form-bordered input, 
+.form-bordered select {
+    padding: 5px; /* Add padding to form elements */
+    border: 1px solid #ddd; /* Style the input borders */
+    border-radius: 5px; /* Add rounded corners to the inputs */
+}
+
+.form-bordered input[type="submit"] {
+    background-color: #4CAF50; /* Style the submit button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.form-bordered input[type="submit"]:hover {
+    background-color: #45a049; /* Change color on hover for the submit button */
+}
+
+
+/* Table styling */
+table {
+    width: 100%; /* Full-width table */
+    border-collapse: collapse; /* No double borders */
+}
+
+/* Table cell styles */
+table tr td {
+    padding: 10px; /* Padding inside cells */
+}
+
+table tr td:first-child {
+    text-align: right; /* Right-align text in first cell */
+    font-weight: bold; /* Bold text */
+    color: #555; /* Medium gray text */
+}
+
+table tr td:last-child {
+    text-align: left; /* Left-align text in last cell */
+}
+
+/* Input and select styles */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%; /* Full-width inputs */
+    padding: 8px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Consistent box model */
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background: #28a745; /* Green background for success */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger font size */
+}
+
+input[type="submit"]:hover {
+    background: #218838; /* Darker green on hover */
+}
+
+
+.footer{
+    background: url(../images/footer.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} 
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
+}
+
+.footer .box-container .box h3{
+    color: var(--white);
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.footer .box-container .box a{
+    color: var(--light-white);
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    display: block;
+}
+
+.footer .box-container .box a i{
+    color: var(--main-color);
+    padding-right: .5rem;
+}
+
+.footer .box-container .box a i{
+    color: var(--main-color);
+    padding-right: .5rem;
+    transition: 0.2s linear;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .credit{
+    text-align: center;
+    padding-top: 3rem;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    border-top: .1rem solid var(--light-white);
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.footer .credit span{
+    color: var(--main-color);
+}
+
+.footer .credit span1{
+    color: red;
+}
