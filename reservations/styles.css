@@ -1,0 +1,209 @@
+/* External CSS file: styles.css */
+.header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background-color: var(--white);
+    display: flex;
+    padding: 2rem 9%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--black);
+    text-transform: uppercase;
+}
+
+.header .logo span{
+    color:red;
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    margin:0 .8rem;
+    color: var(--black);
+}
+
+.header .navbar a:hover{
+    color:var(--main-color);
+}
+
+.header .flex{
+    padding:2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 1200px;
+   margin:0 auto;
+}
+
+.header .icons i{
+    font-size: 1.7rem;
+    color:black;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.header .icons i:hover{
+    color:var(--main-color);
+}
+
+.header .user-box{
+    position: absolute;
+    top:120%; right:2rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    border:var(--main-color);
+    padding:2rem;
+    text-align: center;
+    width: 35rem;
+    display: none;
+    animation: fadeIn .2s linear;
+ }
+
+ .header .user-box.active{
+    display: inline-block;
+ }
+ 
+ .header .user-box p{
+    font-size: 1.5rem;
+    color:var(--light-color);
+    margin-bottom: 1.5rem;
+ }
+ 
+ .header .user-box p span{
+    color:var(--purple);
+ }
+ 
+ .header .user-box .delete-btn{
+    margin-top: 0;
+ }
+
+.header .search-bar-container{
+    position: absolute;
+    top: 100%; left: 0; right: 0;
+    padding:1.5rem 2rem;
+    background: #333;
+    border-top: .1rem solid rgba(255,255,255,.2);
+    display: flex;
+    align-items: center;
+    z-index: 1001;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.header .search-bar-container.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+}
+
+.header .search-bar-container #search-bar{
+    width: 100%;
+    padding: 1rem;
+    text-transform: none;
+    color: #333;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+}
+
+.header .search-bar-container label{
+    color: #fff;
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 1.5rem;
+}
+
+.header .search-bar-container label:hover{
+    color:var(--main-color);
+}
+/* Apply a simple border and spacing to the table */
+
+.body{
+    background-color: #f4f4f4;
+}
+table {
+    border-collapse: collapse; /* Prevent double borders */
+    width: 100%; /* Make the table take up the full width of its container */
+}
+
+/* Styles for the card layout */
+.card {
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 150px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.card p {
+    margin: 8px 0;
+}
+
+.card-actions {
+    margin-top: 16px;
+}
+
+
+   
+
+.butn {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+
+.card-actions a:hover {
+    text-decoration: underline;
+}
+
+
+/* Style for table header row */
+thead {
+    background-color: #f2f2f2; /* Light gray background for header */
+}
+
+/* Style for table rows */
+tr {
+    border-bottom: 1px solid #dddddd; /* Simple border between rows */
+}
+
+/* Style for table cells */
+td, th {
+    padding: 8px; /* Padding for spacing inside cells */
+    text-align: left; /* Align text to the left */
+    font-family: Arial, sans-serif; /* Use a simple, readable font */
+}
+
+/* Add a hover effect for rows */
+tr:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+}
+
+/* Style for action links */
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Set link color to a blue shade */
+}
+
+/* Change link color on hover */
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
