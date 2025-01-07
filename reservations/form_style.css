@@ -1,1 +1,80 @@
+/* External CSS file: form_style.css */
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif; /* Standard sans-serif font */
+    background-color: #f0f0f0; /* Light background */
+    margin: 0; /* Reset default margins */
+    padding: 0; /* Reset default padding */
+}
+
+
+/* Container for form and surrounding elements */
+
+
+/* Header style */
+h2 {
+    text-align: center; /* Centered text */
+    color: #333; /* Dark gray for emphasis */
+    font-size: 50px; /* Adjust the font size for the heading */
+}
+
+/* Style for the home link */
+.home-link {
+    display: block; /* Block level element */
+    text-align: center; /* Centered text */
+    margin-bottom: 1em; /* Spacing below the link */
+    text-decoration: none; /* No underline */
+    color: #007BFF; /* Blue color for links */
+}
+
+.form-wrapper {
+    border: 2px solid #ccc; /* Light gray border */
+    padding: 20px; /* Padding inside the border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    max-width: 400px; /* Set a maximum width */
+    margin: 20px auto; /* Centered alignment */
+}
+
+
+
+/* Styling for form elements */
+.form-group {
+    margin-bottom: 1em; /* Spacing between form groups */
+}
+
+.form-group label {
+    display: block; /* Display labels as block elements */
+    font-weight: bold; /* Bold labels for emphasis */
+    color: #333; /* Dark gray text */
+}
+
+.form-group input,
+.form-group select {
+    width: 100%; /* Input elements fill the width */
+    padding: 0.5em; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling for the submit button */
+.btn {
+
+    margin-left: 150px;
+    display: block; /* Block-level element */
+    width: 100px; /* Full-width button */
+    padding: 5px 10px; /* Padding inside the button */
+    background-color: #28a745; /* Green for success */
+    color: white; /* White text for contrast */
+    text-align: center; /* Centered text */
+    text-transform: uppercase; /* Uppercase text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
 
