@@ -16,7 +16,7 @@ Safari Lanka was developed with the mission to bring technology into the wildern
 
 ---
 
-## 🐾 **Screenshots**
+## 📸 **Screenshots**
 
 ![Safari Lanka Logo](https://via.placeholder.com/800x200?text=Safari+Lanka+Logo)
 
