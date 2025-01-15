@@ -1,9 +1,6 @@
-
 # 🌿 Safari Lanka - Wild Life Safari Management System  
 
 Welcome to **Safari Lanka**, a comprehensive web-based management system designed for wildlife safari companies. This project streamlines critical operations such as reservations, payments, and donations, making it easier for businesses to operate efficiently while providing a seamless user experience.  
-
-![Safari Lanka Logo](https://via.placeholder.com/800x200?text=Safari+Lanka+Logo)
 
 ---
 
@@ -16,6 +13,12 @@ Safari Lanka was developed with the mission to bring technology into the wildern
 - Secure and streamline payment transactions.
 - Encourage and facilitate donations for wildlife conservation efforts.
 - Enhance operational efficiency with modernized data management systems.
+
+---
+
+## 🐾 **Screenshots**
+
+![Safari Lanka Logo](https://via.placeholder.com/800x200?text=Safari+Lanka+Logo)
 
 ---
 
